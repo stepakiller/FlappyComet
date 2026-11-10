@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d814909c967ac240891811fcc477ab1, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FlappyComet.Core.GameConfig
+  cameraSize: 5
+  barHeight: 0.9
+  cometScreenX: 0.18
+  gravity: 20
+  thrust: 42
+  maxRiseSpeed: 10
+  maxFallSpeed: 7
+  ceilingKills: 1
+  floorKills: 1
+  trailTime: 0.15
+  startSpeed: 15
+  maxSpeed: 20
+  acceleration: 0.2
+  firstObstacleDistance: 16
+  minGap: 12
+  maxGap: 25
+  minObstacleSize: 0.8
+  maxObstacleSize: 1.3
+  firstPickupDistance: 18
+  pickupMinGap: 9
+  pickupMaxGap: 16
+  pickupSize: 0.35
+  magnetRadius: 2.2
+  magnetSpeed: 22
+  pickupSpinSpeed: 180
+  restartDelay: 0.4
